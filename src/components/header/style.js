@@ -12,7 +12,7 @@ top:0;
 left:0;
 right:0;
 height:60px;
-
+z-index:1000;
 display: flex;
 align-items:center;
 justify-content:center;

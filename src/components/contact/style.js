@@ -6,11 +6,12 @@ export const FormContainer = styled.div`
   background-color:${props => props.theme.component};
   padding:2rem;
   position:sticky;
-top:100px;
+  z-index:1;
+ top:100px;
 
 ${tabletLandScape({
   maxWidth: "100%",
-  position:"static"
+  position: "static"
 })}
 
 
